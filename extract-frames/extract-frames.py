@@ -37,7 +37,7 @@ def extractFrames(video, pathOut, totalFrames=50, cada=100):
 
 def main(video, out, totalFrames, cada):
 
-    extractFrames(video, out, totalFrames, each=250)
+    extractFrames(video, out, totalFrames, cada)
 
 if __name__=="__main__":
     parser = argparse.ArgumentParser()
